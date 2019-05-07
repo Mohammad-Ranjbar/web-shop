@@ -80,6 +80,13 @@
             <div class="content">
                 <div class="title m-b-md">
                     Laravel
+                    <?php
+                    $jdt = new jDateTime(true,true,'Asia/Tehran');
+                    $d = "2017-1-20 20:20:20";
+                    $t = $jdt->date(" l j F Y",strtotime($d));
+                    ?>
+                    <br><br>
+                    {{$t}}
                 </div>
 
                 <div class="links">
