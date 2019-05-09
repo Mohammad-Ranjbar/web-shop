@@ -13,6 +13,11 @@ Route::group(['middleware'=>'auth'],function (){
 
 });
 
+Route::get('test',function (){
+
+    return view('test');
+});
+
 
 
 Route::get('/login',function (){
