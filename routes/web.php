@@ -18,6 +18,12 @@ Route::get('test',function (){
     return view('test');
 });
 
+Route::get('layout',function (){
+
+    return view('layout');
+
+});
+
 
 
 Route::get('/login',function (){
