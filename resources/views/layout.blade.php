@@ -7,6 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>layout</title>
 </head>
+<style>
+    mark {
+        background-color: darkred;
+        color: whitesmoke;
+    }
+</style>
 <body>
 
 <p>
